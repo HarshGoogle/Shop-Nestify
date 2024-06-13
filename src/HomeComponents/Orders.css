@@ -1,0 +1,78 @@
+/* Orders.css */
+.order-container {
+  width: 100%;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.order-heading {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.order-table {
+  overflow: auto;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.order-table th,
+.order-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.order-table th {
+  background-color: #007d02;
+  color: white;
+  font-weight: bold;
+}
+
+.order-table tr:nth-child(even) {
+  background-color: #b8ffba;
+}
+
+.order-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .order-heading {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .order-table th,
+  .order-table td {
+    font-size: 14px;
+    padding: 6px;
+  }
+
+  .order-container {
+    margin: 10px;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .order-heading {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .order-table th,
+  .order-table td {
+    font-size: 12px;
+    padding: 4px;
+  }
+
+  .order-container {
+    margin: 5px;
+    padding: 10px;
+  }
+}

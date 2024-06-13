@@ -1,0 +1,46 @@
+/* Orders.css */
+.user-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .user-heading {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .user-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .user-table th,
+  .user-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .user-table th {
+    background-color: #670086;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .user-table tr:nth-child(even) {
+    background-color: #edb8ff; /* Light yellow */
+  }
+  
+  .user-table tr:nth-child(odd) {
+    background-color: #ffffff; /* Yellow */
+  }
+  
+  .user-table tr:hover {
+    background-color: #bdbdbd;
+  }
+
+  
+  

@@ -1,0 +1,22 @@
+.faq-container{
+    margin: 15px;
+}
+
+@keyframes bold {
+    0%{
+    }
+    100%{
+        color:rgb(0, 0, 0);
+    }
+}
+.faq-img{
+    width:100%;
+    height:300px;
+}
+.question{
+ font-weight: 500;
+    color:black;
+}
+.answer{
+    color:rgb(3, 0, 97);
+}

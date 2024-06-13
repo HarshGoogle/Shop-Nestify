@@ -1,0 +1,96 @@
+.cards-container {
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-groups {
+    box-shadow: 5px 5px 100px 1px rgb(223, 223, 223);
+    margin-right: 40px;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    height: 85vh;
+    border: 1px solid rgb(208, 208, 208);
+    overflow-y: scroll;
+}
+
+.summary {
+    box-shadow: 5px 5px 100px 1px rgb(231, 231, 231);
+    border: 1px solid rgb(0, 38, 255);
+    border-radius: 20px;
+    padding: 50px;
+    width: 30%;
+    height: 70vh;
+    overflow-y: scroll;
+}
+
+.Card {
+    display: flex;
+  background-color: rgb(246, 246, 246);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding:0px  10px;
+    margin: 10px 0px;
+}
+
+.card-img-left {
+    padding: 10px;
+    margin: 0px 15px;
+    border-radius: 20px;
+    width: 40%;
+    height: 40%;
+}
+
+.card-body-right {
+    padding: 10px;
+    margin: 0px 15px;
+    color:black;
+    width: 70%;
+    height: 80%;
+}
+p.cart-item-description{
+    color: blue;
+}
+.summaryTitle{
+    color:blue;
+}
+.totalItems,.totalPrice{
+    font-size: larger;
+    font-weight: bold;
+}
+#updown{
+    font-weight: 900;
+    color: blue;
+    margin:0px 5px;
+}
+.item{
+    color:rgb(112, 112, 112);
+}
+.count{
+    display: inline;
+    font-weight: bolder;
+}
+.countBtn{
+    display: inline;
+    font-weight: bolder;
+    border: 1px solid grey;
+}
+.qty{
+    color: rgb(70, 70, 70);
+    font-weight: bold;
+}
+.card-title{
+    display: inline;
+}
+.remove{
+    float: right;
+    display: inline-block;
+}
+.place-order-btn{
+    position: relative;
+    width:100%;
+    bottom: 0px;
+}

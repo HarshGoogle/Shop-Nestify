@@ -1,0 +1,16 @@
+.deals-container{
+    width:100%;
+display: flex;
+flex-wrap: wrap;
+}
+.deal{
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px black;
+    margin: 5px;
+    width:350px;
+    height: 350px;
+}
+.header{
+    width:100%;
+}

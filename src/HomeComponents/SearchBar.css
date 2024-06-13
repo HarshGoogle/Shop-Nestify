@@ -1,0 +1,91 @@
+
+.keywords-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 999; /* Ensure it appears above other content */
+    background-color: white; /* Set a background color */
+    border: 1px solid #ccc; /* Add a border for clarity */
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+  } 
+  .keyword {
+    color: blue;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 3px 8px;
+    margin: 2px;
+  }
+
+  
+  .filterBtn{
+    margin: 20px 5px;
+    border-radius: 20px;
+    width:100px;
+    height: 30px;
+  }
+  .filter-container{
+    width:100%;
+    margin:10px;
+  }
+  .filter{
+    width:30%;
+    padding: 5px;
+    border-radius: 40px;
+    margin:10px;
+  }
+  
+
+
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 35px;
+  }
+  
+  .input {
+    width: 80%;
+    height: 100%;
+    outline: none;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #dddddd;
+    caret-color: #f7f7f8;
+    color: #fff;
+    padding: 7px 10px;
+    border: 2px solid transparent;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    margin-right: 1px;
+    transition: all .2s ease;
+  }
+  
+  .input:hover {
+    border: 2px solid rgba(255, 255, 255, 0.16);
+  }
+  
+  .input:focus {
+    border: 2px solid #a970ff;
+    background-color: #0e0e10;
+  }
+  
+  .search__btn {
+    border: none;
+    cursor: pointer;
+    background-color: rgb(255, 191, 0);
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    height: 100%;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .search__btn:hover {
+    background-color: rgba(54, 54, 56, 1);
+  }

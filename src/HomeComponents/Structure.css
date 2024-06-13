@@ -1,0 +1,29 @@
+.structure{
+    display: flex;
+}
+.side-navbar{
+    width:23%;
+}
+.product-container{
+    margin: 20px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    width:77%;
+}
+@media (max-width: 1200px) {
+    .structure{
+        display: flex;
+        flex-direction: column;
+    }
+    .side-navbar{
+        width:100%;
+    }
+    .product-container{
+        width:100%;
+        border: 1px solid grey;
+        margin:10px;
+        box-shadow: 2px 2px 20px black;
+    }
+}
+
+  
